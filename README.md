@@ -5,7 +5,6 @@ Database oluşturmak için json-server kullandım (touch indir: npm install touc
 db.json'a verileri koyduktan sonra sunucum hazır hale geldi:
 jsonAnasayfa.png , jsonSayfaData.png , jsonData.png
 
-
 interface ile model yapıp(model.png) async bir şekilde verileri fetch'ledim{service.png(10)(14)}
 
 Router kullanarak sayfaların path'lerini oluşturdum(routes.png)
@@ -23,10 +22,9 @@ web sitesi üzerinden f12>terminal kısmına girersek submit butonuna basıldı�
 Hepsine ek olarak tabiki de css ve html kodları nasıl yazılır nasıl birbirleri arasında iletişim kurarlar üzerinde çalışarak öğrendim.
 
 
-
 Takıldığım kısımlar: Arama barında sadece butona basarak değil, klavyeden enter'a basarak da aramasını istedim. Bastığımda sayfanın aramayı anlık yaptığını ama sonuç olarak sayfayı tekrar
-tamamını yüklediğini debug yaparak fark ettim. Bir kaç saat açıkçası bununla uğraştım. Arama bölümünü anlık olarak aratması için "submit"'e çevirip arama bölümüne yazdığım sürece
-alt kısımda filtrelemesini sağladım ancak bu sefer de search butonunun gereksiz olacağını fark ettiğim için yapmadım. Ama güzel bir özellik olarak gördüm diyebilirim.
+tamamını yüklediğini debug yaparak fark ettim. Bir kaç saat açıkçası bununla uğraştım ve hallettim. Arama bölümünü anlık olarak aratması için "submit"'e çevirip arama bölümüne yazdığım sürece
+alt kısımda filtrelemesini sağladım ancak bu sefer de search butonunun gereksiz olacağını fark ettiğim için yapmadım. Ama güzel bir özellik olarak aklımda kaldı diyebilirim.
 
 
 
