@@ -9,7 +9,7 @@ jsonAnasayfa.png , jsonSayfaData.png , jsonData.png
 interface ile model yapıp(model.png) async bir şekilde verileri fetch'ledim{service.png(10)(14)}
 
 Router kullanarak sayfaların path'lerini oluşturdum(routes.png)
-Sitenin iskeletini oluştururken app.component.ts'ye HomeComponent'i importlayıp <router-outlet></router-outlet> ile html'ini gösterdim{appModule.png(8)(17)}
+Sitenin iskeletini oluştururken app.component.ts'ye HomeComponent'i importlayıp router-outlet ile html'ini gösterdim{appModule.png(8)(17)}
 Daha sonra anlatacağım details sayfasından geri çıkarken sürekli sayfayı geri döndürmekten sıkıldığım için başlıktaki "homes" fotoğrafını anasayfaya bağladım{appModule.png(12)}.
 
 anasayfa.png'deki evleri listeleyebilmek için evlerin verilerini alıp{anasayfaEvler(21)} template'ini oluşturdum{anasayfaEvler(9)}. Fotoğrafta her ne kadar typescript üzerine yazmış 
