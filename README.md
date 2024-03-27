@@ -18,7 +18,7 @@ olsam da html kodunu, bunu daha az fotoğraf koymak ve anlaşılabilirliği kola
 Anasayfayı artık tamamlamak için bir arama filtresi koydum{ansayfaKod(14)} ve şehre göre filtreledim{ansayfaKod(35)}. anasayfaEvler.png'de yaptığım evleri sıralaması için ngFor kullandım.
 
 Detay sayfasını oluşturup @angular/forms kullanarak evlere başvurabilecekleri bir form oluşturdum. Her bir ev için id'lerine göre pathler ayarladım{detay2.png(50)}
-web sitesi üzerinden f12>terminal kısmına girersek submit butonuna basıldığında verinin alındığını da görebiliriz service.png(18).
+web sitesi üzerinden f12>terminal kısmına girersek submit butonuna basıldığında verinin alındığını da görebiliriz service.png(18) detaySayfa.png.
 
 Hepsine ek olarak tabiki de css ve html kodları nasıl yazılır nasıl birbirleri arasında iletişim kurarlar üzerinde çalışarak öğrendim.
 
