@@ -1,28 +1,9 @@
-# FirstAngularApp
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Yapılanlar
-
-JSON Server'ı kullanarak basit bir Restful API'ye sahip olan ve bu API'yi JSON dosyası üzerinden yönetebileceğim bir sunucu oluşturdum.
+# JSON Server'ı kullanarak basit bir Restful API'ye sahip olan ve bu API'yi JSON dosyası üzerinden yönetebileceğim bir sunucu oluşturdum.
 
 Database oluşturmak için json-server kullandım (touch indir: npm install touch-cli -g , dosya oluştur: touch db.json , sunucu oluştur: json-server --watch db.json).
-db.json'a verileri koyduktan sonra sunucum hazır hale geldi.
--
+db.json'a verileri koyduktan sonra sunucum hazır hale geldi:
 jsonAnasayfa.png , jsonSayfaData.png , jsonData.png
--
+
 
 interface ile model yapıp(model.png) async bir şekilde verileri fetch'ledim{service.png(10)(14)}
 
@@ -48,6 +29,22 @@ alt kısımda filtrelemesini sağladım ancak bu sefer de search butonunun gerek
 
 
 
+
+## AngularApp
+
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.2.2.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+
+## Code scaffolding
+
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+
+## Build
+
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
 ## Further help
 
