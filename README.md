@@ -1,5 +1,6 @@
-# JSON Server'ı kullanarak basit bir Restful API'ye sahip olan ve bu API'yi JSON dosyası üzerinden yönetebileceğim bir sunucu oluşturdum.
+# Yapılanlar
 
+JSON Server'ı kullanarak basit bir Restful API'ye sahip olan ve bu API'yi JSON dosyası üzerinden yönetebileceğim bir sunucu oluşturdum.
 Database oluşturmak için json-server kullandım (touch indir: npm install touch-cli -g , dosya oluştur: touch db.json , sunucu oluştur: json-server --watch db.json).
 db.json'a verileri koyduktan sonra sunucum hazır hale geldi:
 jsonAnasayfa.png , jsonSayfaData.png , jsonData.png
